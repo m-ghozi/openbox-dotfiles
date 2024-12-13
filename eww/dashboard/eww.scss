@@ -1,0 +1,434 @@
+/** Global *******************************************/
+* {
+  all: unset;
+  font-family: Iosevka;
+}
+
+/** Background ***************************************/
+.bg {
+  background-image: url("images/bg.png");
+  background-color: #474d59;
+  opacity: 1;
+}
+
+/** Generic window ***********************************/
+.genwin {
+  background-color: #1d2021;
+  border-radius: 10px;
+}
+
+/** Profile ******************************************/
+.face {
+  background-size: 180px;
+  min-height: 180px;
+  min-width: 180px;
+  margin: 25px 0px 0px 0px;
+  border-radius: 100%;
+}
+
+.fullname {
+  color: #cc241d;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.username {
+  color: #076678;
+  font-size: 22px;
+  font-weight: bold;
+  margin: -30px 0px 0px 0px;
+}
+
+/** System ********************************************/
+.iconcpu,
+.iconmem,
+.iconbright,
+.iconbat {
+  font-size: 25px;
+  font-weight: normal;
+}
+.iconcpu {
+  color: #fb4934;
+}
+.iconmem {
+  color: #b8bb26;
+}
+.iconbright {
+  color: #fabd2f;
+}
+.iconbat {
+  color: #076678;
+}
+
+.cpu_bar,
+.mem_bar,
+.bright_bar,
+.bat_bar,
+scale trough {
+  all: unset;
+  background-color: #282828;
+  border-radius: 12.5px;
+  min-height: 18px;
+  min-width: 160px;
+}
+
+.cpu_bar,
+.mem_bar,
+.bright_bar,
+.bat_bar,
+scale trough highlight {
+  all: unset;
+  border-radius: 15px;
+}
+
+.cpu_bar scale trough highlight {
+  background-color: #fb4934;
+}
+.mem_bar scale trough highlight {
+  background-color: #b8bb26;
+}
+.bright_bar scale trough highlight {
+  background-color: #fabd2f;
+}
+.bat_bar scale trough highlight {
+  background-color: #076678;
+}
+
+/** Clock ********************************************/
+.time_hour,
+.time_min {
+  color: #458588;
+  font-size: 47px;
+  font-weight: bold;
+}
+.time_hour {
+  margin: 20px 0px 0px 20px;
+}
+.time_min {
+  margin: 0px 0px 10px -20px;
+}
+
+.time_mer {
+  color: #b8bb26;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+
+.time_day {
+  color: #fabd2f;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0px 0px 20px -50px;
+}
+
+/** Uptime ********************************************/
+.icontimer {
+  color: #b16286;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.uphour {
+  color: #f9f5d7;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.upmin {
+  color: #f9f5d7;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+/** Music ***************************************/
+// .album_art {
+//   background-size: 180px;
+//   min-height: 180px;
+//   min-width: 180px;
+//   margin: 20px;
+//   border-radius: 14px;
+// }
+
+.album_art {
+  background-size: cover; /* or 'contain' depending on desired behavior */
+  min-height: 180px;
+  min-width: 180px;
+  margin: 20px;
+  border-radius: 14px;
+  background-position: center;
+}
+
+.song {
+  color: #6bb2c0;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+
+.artist {
+  color: #fabd2f;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0px 0px 10px 0px;
+}
+
+.btn_prev,
+.btn_play,
+.btn_next {
+  font-family: Iosevka Nerd Font;
+}
+.btn_prev {
+  color: #fabd2f;
+  font-size: 25px;
+  font-weight: normal;
+}
+.btn_play {
+  color: #b8bb26;
+  font-size: 25px;
+  font-weight: bold;
+}
+.btn_next {
+  color: #fabd2f;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.music_bar scale trough highlight {
+  all: unset;
+  background-color: #b16286;
+  border-radius: 8px;
+}
+.music_bar scale trough {
+  all: unset;
+  background-color: #282828;
+  border-radius: 8px;
+  min-height: 16px;
+  min-width: 200px;
+  margin: 10px 0px 0px 0px;
+}
+
+/** Weather ***************************************/
+.iconweather {
+  font-family: Iosevka Nerd Font;
+  font-size: 80px;
+  font-weight: normal;
+  margin: 0px 0px 0px 20px;
+}
+
+.label_temp {
+  color: #458588;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0px 20px 0px 0px;
+}
+
+.label_stat {
+  color: #fb4934;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.label_quote {
+  color: #a9b1d6;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/** Applications ***************************************/
+.appbox {
+  margin: 20px 0px 0px 20px;
+}
+
+.app_fox,
+.app_telegram,
+.app_discord,
+.app_terminal,
+.app_files,
+.app_geany,
+.app_code,
+.app_gimp,
+.app_vbox {
+  background-repeat: no-repeat;
+  background-size: 50px;
+  min-height: 50px;
+  min-width: 50px;
+  margin: -4px 5px 0px 5px;
+}
+
+.app_fox {
+}
+.app_telegram {
+}
+.app_discord {
+}
+.app_terminal {
+}
+.app_files {
+}
+.app_geany {
+}
+.app_code {
+}
+.app_gimp {
+}
+.app_vbox {
+}
+
+/** Links ***************************************/
+.iconweb {
+  color: #ffffff;
+  font-family: Iosevka Nerd Font;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 0px 0px 0px -20px;
+}
+.iconmail {
+  color: #df584e;
+  font-family: Iosevka Nerd Font;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.github {
+  background-color: #24292e;
+  border-radius: 16px;
+}
+.reddit {
+  background-color: #e46231;
+  border-radius: 16px;
+}
+.twitter {
+  background-color: #161616;
+  border-radius: 16px;
+}
+.youtube {
+  background-color: #df584e;
+  border-radius: 16px;
+}
+.mail {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.mailbox {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  margin: 40px 0px 40px 10px;
+}
+.label_mails {
+  color: #404040;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 12px 0px 12px;
+}
+
+/** Power buttons ***************************************/
+.btn_logout,
+.btn_sleep,
+.btn_reboot,
+.btn_poweroff {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0px 0px 0px -13px;
+}
+
+.btn_logout {
+  color: #fb4934;
+}
+.btn_sleep {
+  color: #b8bb26;
+}
+.btn_reboot {
+  color: #fabd2f;
+}
+.btn_poweroff {
+  color: #076678;
+}
+
+/** Home folders ***************************************/
+.hddbox {
+  background-color: #282828;
+  border-radius: 10px;
+  margin: 15px;
+}
+.hddicon {
+  color: #458588;
+  font-family: Iosevka Nerd Font;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 25px 10px 25px 30px;
+}
+.hdd_label {
+  color: #f9f5d7;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px 0px 0px 10px;
+}
+.fs_sep {
+  color: #1d2021;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.iconfolder1,
+.iconfolder2,
+.iconfolder3,
+.iconfolder4,
+.iconfolder5,
+.iconfolder6 {
+  font-family: Iosevka Nerd Font;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0px 0px 10px 50px;
+}
+.iconfolder1 {
+  color: #fb4934;
+}
+.iconfolder2 {
+  color: #b8bb26;
+}
+.iconfolder3 {
+  color: #fabd2f;
+}
+.iconfolder4 {
+  color: #458588;
+}
+.iconfolder5 {
+  color: #b16286;
+}
+.iconfolder6 {
+  color: #076678;
+}
+
+.label_folder1,
+.label_folder2,
+.label_folder3,
+.label_folder4,
+.label_folder5,
+.label_folder6 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0px 0px 10px 20px;
+}
+.label_folder1 {
+  color: #fb4934;
+}
+.label_folder2 {
+  color: #b8bb26;
+}
+.label_folder3 {
+  color: #fabd2f;
+}
+.label_folder4 {
+  color: #458588;
+}
+.label_folder5 {
+  color: #b16286;
+}
+.label_folder6 {
+  color: #076678;
+}
+
+/** EOF *************************************************/

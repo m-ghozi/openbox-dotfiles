@@ -1,0 +1,85 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "$HOME/Pictures/pp.jpg",
+    "height": 11,
+    "padding": {
+      "top": 0,
+    },
+  },
+  "display": {
+    "separator": " : ",
+  },
+  "modules": [
+    {
+      "type": "os",
+      "key": "   OS",
+      // "key": "   OS",
+      // "key": "   OS",
+      "keyColor": "red",
+    },
+    {
+      "type": "kernel",
+      "key": "   Kernel",
+      "keyColor": "red",
+    },
+    {
+      "type": "uptime",
+      "key": "   Uptime",
+      "keyColor": "green",
+    },
+    // {
+    //     "type": "display",
+    //     "key": "   Display",
+    //     "keyColor": "green"
+    // },
+    {
+      "type": "wm",
+      "key": "   WM",
+      "keyColor": "yellow",
+    },
+    {
+      "type": "terminal",
+      "key": "   Terminal",
+      "keyColor": "yellow",
+    },
+    {
+      "type": "title",
+      "key": "  ",
+    },
+    {
+      "type": "cpu",
+      "format": "{1}",
+      "key": "   CPU",
+      "keyColor": "blue",
+    },
+    {
+      "type": "gpu",
+      "format": "{2}",
+      "key": "   GPU",
+      "keyColor": "blue",
+    },
+    //   {
+    //       "type": "gpu",
+    //       "format": "{3}",
+    //       "key": "   GPU Driver",
+    //       "keyColor": "magenta"
+    //   },
+    {
+      "type": "memory",
+      "key": "    Memory",
+      "keyColor": "magenta",
+    },
+    {
+      "type": "battery",
+      "key": "   Battery",
+      "keyColor": "green",
+      // "format": "{4}"
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "square",
+    },
+  ],
+}
