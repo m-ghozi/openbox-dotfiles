@@ -37,7 +37,7 @@ polybar_font='Iosevka:style=bold:size=10;3'
 
 # Rofi
 rofi_font='Iosevka 10'
-rofi_icon='Papirus-Apps'
+rofi_icon='Gruvbox-Plus-Dark'
 
 # Terminal
 terminal_font_name='JetBrainsMono Nerd Font'
@@ -50,7 +50,7 @@ geany_font='JetBrainsMono Nerd Font 10'
 # Appearance
 gtk_font='Noto Sans 9'
 gtk_theme='Gruvbox'
-icon_theme='Vimix-White-Dark'
+icon_theme='Gruvbox-Plus-Dark'
 cursor_theme='Future-Dark'
 
 # Openbox
