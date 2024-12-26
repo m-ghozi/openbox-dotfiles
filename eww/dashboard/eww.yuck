@@ -120,27 +120,27 @@
 ;; github
 (defwidget github [] 
 	(box :class "github" :vexpand "false" :hexpand "false" 
-		(button :class "iconweb" :onclick "scripts/open_links --gh" "")))
+		(button :class "iconweb" :style "background-image: url('images/icons/github.svg');" :onclick "scripts/open_links --gh")))
 
 ;; reddit
 (defwidget reddit [] 
 	(box :class "reddit" :vexpand "false" :hexpand "false" 
-		(button :class "iconweb" :onclick "scripts/open_links --rd" "")))
+		(button :class "iconweb" :style "background-image: url('images/icons/reddit.svg');" :onclick "scripts/open_links --rd")))
 
 ;; twitter
 (defwidget twitter [] 
 	(box :class "twitter" :vexpand "false" :hexpand "false" 
-		(button :class "iconweb" :onclick "scripts/open_links --tw" "")))
+		(button :class "iconweb" :style "background-image: url('images/icons/twitter-x.svg');" :onclick "scripts/open_links --tw")))
 ;; youtube
 (defwidget youtube [] 
 	(box :class "youtube" :vexpand "false" :hexpand "false" 
-		(button :class "iconweb" :onclick "scripts/open_links --yt" "")))
+		(button :class "iconweb" :style "background-image: url('images/icons/youtube.svg');" :onclick "scripts/open_links --yt")))
 
 ;; mail
 (defwidget mail [] 
 	(box :class "mail" 
 		(box :orientation "h" :halign "center" :spacing 20 :space-evenly "false" :vexpand "false" :hexpand "false" 
-			(button :class "iconmail" :onclick "scripts/open_links --mail" "󰊫")
+			(button :class "iconweb" :style "background-image: url('images/icons/gmail.svg');" :onclick "scripts/open_links --mail")
 			(box :class "mailbox" :space-evenly "false" :vexpand "false" :hexpand "false" 
 				(button :class "label_mails" :onclick "scripts/open_links --mail" MAILS)))))
 
@@ -161,16 +161,16 @@
 	(box :class "genwin" :orientation "v" :space-evenly "false" :vexpand "false" :hexpand "false" 
 		(box :class "appbox" :orientation "h" :space-evenly "false" :vexpand "false" :hexpand "false" 
 			(button :style "background-image: url('images/icons/firefox.svg');" :class "app_fox" :onclick "scripts/open_apps --ff")
-			(button :style "background-image: url('images/icons/telegram.svg');" :class "app_telegram" :onclick "scripts/open_apps --tg")
-			(button :style "background-image: url('images/icons/discord.svg');" :class "app_discord" :onclick "scripts/open_apps --dc"))
+			(button :style "background-image: url('images/icons/spotify.svg');" :class "app_spotify" :onclick "scripts/open_apps --sp")
+			(button :style "background-image: url('images/icons/obsidian.svg');" :class "app_obsidian" :onclick "scripts/open_apps --ob"))
 		(box :class "appbox" :orientation "h" :space-evenly "false" :vexpand "false" :hexpand "false" 
 			(button :style "background-image: url('images/icons/terminal.svg');" :class "app_terminal" :onclick "scripts/open_apps --tr")
 			(button :style "background-image: url('images/icons/files.svg');" :class "app_files" :onclick "scripts/open_apps --fm")
 			(button :style "background-image: url('images/icons/geany.svg');" :class "app_geany" :onclick "scripts/open_apps --ge"))
 		(box :class "appbox" :orientation "h" :space-evenly "false" :vexpand "false" :hexpand "false" 
 			(button :style "background-image: url('images/icons/code.svg');" :class "app_code" :onclick "scripts/open_apps --cd")
-			(button :style "background-image: url('images/icons/gimp.svg');" :class "app_gimp" :onclick "scripts/open_apps --gp")
-			(button :style "background-image: url('images/icons/virtualbox.svg');" :class "app_vbox" :onclick "scripts/open_apps --vb"))))
+			(button :style "background-image: url('images/icons/calculator.svg');" :class "app_galculator" :onclick "scripts/open_apps --gc")
+			(button :style "background-image: url('images/icons/zen.svg');" :class "app_zen" :onclick "scripts/open_apps --zb"))))
 
 ;; power buttons
 (defwidget logout [] 

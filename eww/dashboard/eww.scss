@@ -214,7 +214,7 @@ scale trough highlight {
   font-family: Iosevka Nerd Font;
   font-size: 80px;
   font-weight: normal;
-  margin: 0px 0px 0px 20px;
+  margin: 20px 0px 0px 20px;
 }
 
 .label_temp {
@@ -232,8 +232,9 @@ scale trough highlight {
 
 .label_quote {
   color: #a9b1d6;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
+  margin: -10px 0 0 0;
 }
 
 /** Applications ***************************************/
@@ -242,14 +243,14 @@ scale trough highlight {
 }
 
 .app_fox,
-.app_telegram,
-.app_discord,
+.app_spotify,
+.app_obsidian,
 .app_terminal,
 .app_files,
 .app_geany,
 .app_code,
-.app_gimp,
-.app_vbox {
+.app_galculator,
+.app_zen {
   background-repeat: no-repeat;
   background-size: 50px;
   min-height: 50px;
@@ -278,33 +279,27 @@ scale trough highlight {
 
 /** Links ***************************************/
 .iconweb {
-  color: #ffffff;
-  font-family: Iosevka Nerd Font;
-  font-size: 50px;
-  font-weight: normal;
-  margin: 0px 0px 0px -20px;
-}
-.iconmail {
-  color: #df584e;
-  font-family: Iosevka Nerd Font;
-  font-size: 50px;
-  font-weight: normal;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  min-width: 50px;
+  min-height: 50px;
+  background-position: center;
 }
 
 .github {
-  background-color: #24292e;
+  background-color: #1b1817;
   border-radius: 16px;
 }
 .reddit {
-  background-color: #e46231;
+  background-color: #ff4400;
   border-radius: 16px;
 }
 .twitter {
-  background-color: #161616;
+  background-color: #1da1f2;
   border-radius: 16px;
 }
 .youtube {
-  background-color: #df584e;
+  background-color: #ed1d24;
   border-radius: 16px;
 }
 .mail {
